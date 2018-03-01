@@ -10,7 +10,7 @@ The SADF enables a seamless integration between the Synchronized Measurement Tec
 
 
 ## **Quick-start documentation**
-- Verify the existence of a C-compiler or similar and install it if needed. To check type "mex -setup" into MATLAB Command Window.
+- Verify the existence of a C-compiler or similar and install it if needed. To check this type "mex -setup" into MATLAB Command Window.
 
 - Edit "SADF_settings.m" file using a text editor or MATLAB Editor by typing "edit SADF_settings.m" in the MATLAB Command Window.
   Set IP address of a PMU/PDC, UDP/TCP protocol used, and device ID of a PMU/PDC.
@@ -31,6 +31,7 @@ The SADF enables a seamless integration between the Synchronized Measurement Tec
 	Error in run (line 86)
 	evalin('caller', [script ';']);
 	"	
+	
 please verify the connection parameters in "SADF_settings.m" file.
 
 - to code a user-defied application, please edit the main loop in "SADF_run.m" and take a look into the example application "demo_WAMS.m"
