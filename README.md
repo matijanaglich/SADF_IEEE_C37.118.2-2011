@@ -18,21 +18,17 @@ The SADF enables a seamless integration between the Synchronized Measurement Tec
 - Run the main script by typing "run SADF_run.m" in the MATLAB Command Window.
 
 - In case of flowing error:
-	"
-	Error using icinterface/fopen (line 83)
-	Unsuccessful open: Connection refused: connect
 
-	Error in ICT_initialisation (line 73)
-	        fopen(SADF.Connection_primary);
-
-	Error in SADF_run (line 58)
-	ICT_initialisation();
-
-	Error in run (line 86)
-	evalin('caller', [script ';']);
-	"	
+      Error using icinterface/fopen (line 83)
+      Unsuccessful open: Connection refused: connect
+      Error in ICT_initialisation (line 73)
+      fopen(SADF.Connection_primary);
+      Error in SADF_run (line 58)	
+      ICT_initialisation();
+      Error in run (line 86)
+      evalin('caller', [script ';']);	
 	
-       please verify the connection parameters in "SADF_settings.m" file.
+     please verify the connection parameters in "SADF_settings.m" file.
 
 - to code a user-defied application, please edit the main loop in "SADF_run.m" and take a look into the example application "demo_WAMS.m"
 
