@@ -33,9 +33,9 @@ The SADF enables a seamless integration between the Synchronized Measurement Tec
 - to code a user-defied application, please edit the main loop in "SADF_run.m" and take a look into the example application "demo_WAMS.m"
 
 ## **Support** ##
-**For support and referring please cite folowing paper:**
+**For support and referring:**
 **_M. Naglic, M. Popov, M. Meijden and V. Terzija, “Synchro-measurement Application Development Framework: an IEEE Standard C37.118.2-2011 Supported MATLAB Library,” IEEE Transactions on Instrumentation and Measurement, 2018._**
 
-**_Reference paper DOI: https://doi.org/10.1109/TIM.2018.2807000_**
+**_Paper DOI: https://doi.org/10.1109/TIM.2018.2807000_**
 
 In case of problems please send an email.
