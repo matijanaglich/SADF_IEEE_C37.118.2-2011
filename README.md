@@ -6,7 +6,7 @@ The SADF enables a seamless integration between the Synchronized Measurement Tec
 ## **Content**
 - Matlab scripts to enable fully automated online receiving and parsing of PMU/PDC data stream (IEEE Standard C37.118-2005 and IEEE Standard C37.118.2-2011) content into a user-friendly format.
 
-- An example application for online Voltage Magnitude Monitoring. The plotting automatically displays voltage magnitude channels of all available PMU stations.
+- Example application for online Voltage Magnitude Monitoring. The plotting automatically displays voltage magnitude channels of all available PMU stations.
 
 
 ## **Quick-start documentation**
@@ -34,7 +34,7 @@ The SADF enables a seamless integration between the Synchronized Measurement Tec
 
 ## **Support** ##
 **For support and referring please cite folowing paper:**
-**_M. Naglic, M. Popov, M. Meijden and V. Terzija, “Synchro-measurement Application Development Framework: an IEEE Standard C37.118.2-2011 Supported MATLAB Library,” Accepted for publication in IEEE Transactions on Instrumentation and Measurement, 2018._**
+**_M. Naglic, M. Popov, M. Meijden and V. Terzija, “Synchro-measurement Application Development Framework: an IEEE Standard C37.118.2-2011 Supported MATLAB Library,” IEEE Transactions on Instrumentation and Measurement, 2018._**
 
 **_Reference paper DOI: https://doi.org/10.1109/TIM.2018.2807000_**
 
