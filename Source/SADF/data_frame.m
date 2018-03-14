@@ -396,8 +396,8 @@ function data_frame(data_raw)
             if CFG_2_3.PMUsDataFormat(5, pmui, CFG_2_3.counter)==1 %FREQ and ROCOF in IEEE floating point
                 a1 = a2 + 1;
                 a2 = a2 + 4;
-                DATA.Freq(DATA.index, 1, pmui) = CFG_2_3.PMUsFreqNominal(1, pmui, CFG_2_3.counter) + swapbytes(typecast(swapbytes(data_raw(a1:a2)), 'single'))*10^-3;
-                DATA.FreqDev(DATA.index, 1, pmui) = swapbytes(typecast(swapbytes(data_raw(a1:a2)), 'single'))*10^-3;
+                DATA.Freq(DATA.index, 1, pmui) = swapbytes(typecast(swapbytes(data_raw(a1:a2)), 'single'));
+                DATA.FreqDev(DATA.index, 1, pmui) = swapbytes(typecast(swapbytes(data_raw(a1:a2)), 'single')) - CFG_2_3.PMUsFreqNominal(1, pmui, CFG_2_3.counter);
                 
                 a1 = a2 + 1;
                 a2 = a2 + 4;
@@ -406,8 +406,8 @@ function data_frame(data_raw)
             else %FREQ and ROCOF in 16-bit format
                 a1 = a2 + 1;
                 a2 = a2 + 2;
-                DATA.Freq(DATA.index, 1, pmui) = CFG_2_3.PMUsFreqNominal(1, pmui, CFG_2_3.counter) + double(swapbytes(typecast(data_raw(a1:a2),'int16')))*10^-3;
-                DATA.FreqDev(DATA.index, 1, pmui) =  double(swapbytes(typecast(data_raw(a1:a2),'int16')))*10^-3;
+                DATA.Freq(DATA.index, 1, pmui) =  double(swapbytes(typecast(data_raw(a1:a2),'int16')));
+                DATA.FreqDev(DATA.index, 1, pmui) =  double(swapbytes(typecast(data_raw(a1:a2),'int16'))) - CFG_2_3.PMUsFreqNominal(1, pmui, CFG_2_3.counter);
                 
                 a1 = a2 + 1;
                 a2 = a2 + 2;
