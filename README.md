@@ -3,6 +3,8 @@
 Synchro-measurement Application Development Framework (SADF) is a MATLAB supported library to facilitate simplified design and online validation of advanced closed-loop control Wide Area Monitoring, Protection, and Control (WAMPAC) applications, as well as PMU/PDC performance and compliance verification under realistic conditions. 
 The SADF enables a seamless integration between the Synchronized Measurement Technology (SMT) supported electric power system and synchro-measurement supported user-defined applications. This is done by online receiving and parsing of IEEE Std. C37.118-2005 and C37.118.2-2011 specified machine-readable messages into a human-readable MATLAB format. SADF enables receiving of TCP, UDP, or TCP/UDP synchro-measurement data stream by using either "commanded" or "spontaneous" mode. Combining this library with MATLAB's signal processing and visualization functions allows mastering the design and validation of complex WAMAPC applications.
 
+For details: https://doi.org/10.1109/TIM.2018.2807000
+
 ## **Content**
 - Matlab scripts to enable fully automated online receiving and parsing of PMU/PDC data stream (IEEE Standard C37.118-2005 and IEEE Standard C37.118.2-2011) content into a user-friendly format.
 
