@@ -12,7 +12,7 @@ For details: https://doi.org/10.1109/TIM.2018.2807000
 
 
 ## **Quick-start documentation**
-- Verify the existence of a C-compiler or similar and install it if needed. To check this type "mex -setup" into MATLAB Command Window.
+- Verify the existence of a C-compiler or similar and install it if needed. To check this type "mex -setup" into MATLAB Command Window. In case of problems with existing crc_16_CCITT_8bit mex file, navigate into "crc_16_CCITT_8bit_sources/" directory and open "crc_16_CCITT_8bit.prj", and compile mex file for your own MATLAB version.
 
 - Edit "SADF_settings.m" file using a text editor or MATLAB Editor by typing "edit SADF_settings.m" in the MATLAB Command Window.
   Set IP address of a PMU/PDC, UDP/TCP protocol used, and device ID of a PMU/PDC.
