@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.coder" plugin-version="R2016a">
-  <configuration build-checksum="3203968479" file="C:\Users\Wonderland\Desktop\Coherency_SADF_v3_noevent\crc_16_CCITT_8bit_sources\crc_16_CCITT_8bit.prj" location="C:\Users\Wonderland\Desktop\Coherency_SADF_v3_noevent\crc_16_CCITT_8bit_sources" name="crc_16_CCITT_8bit" preferred-package-location="D:\mnaglic\surfdrive\TU_Delft\Programs\MATLAB\Research\SADF\ver.15_globals\codegen" preferred-package-type="package.type.zip.flat" target="target.unifiedcoder" target-name="MATLAB Coder">
+  <configuration build-checksum="3203968479" file="C:\crc_16_CCITT_8bit_sources\crc_16_CCITT_8bit.prj" location="C:\crc_16_CCITT_8bit_sources" name="crc_16_CCITT_8bit" preferred-package-location="D:\codegen" preferred-package-type="package.type.zip.flat" target="target.unifiedcoder" target-name="MATLAB Coder">
     <profile key="profile.mex">
       <param.BuiltInstrumentedMex>false</param.BuiltInstrumentedMex>
       <param.RanInstrumentedMex>false</param.RanInstrumentedMex>
