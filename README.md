@@ -36,7 +36,7 @@ For details: https://doi.org/10.1109/TIM.2018.2807000
 
 ## **Support** ##
 **For support and referring:**
-**_M. Naglic, M. Popov, M. Meijden and V. Terzija, “Synchro-measurement Application Development Framework: an IEEE Standard C37.118.2-2011 Supported MATLAB Library,” IEEE Transactions on Instrumentation and Measurement, 2018._**
+**_M. Naglic, M. Popov, M. Meijden and V. Terzija, “Synchro-measurement Application Development Framework: an IEEE Standard C37.118.2-2011 Supported MATLAB Library,” IEEE Transactions on Instrumentation and Measurement, vol. 67, no. 8, pp. 1804–1814, Aug. 2018._**
 
 **_Paper DOI: https://doi.org/10.1109/TIM.2018.2807000_**
 
