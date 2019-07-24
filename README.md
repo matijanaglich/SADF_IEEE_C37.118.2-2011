@@ -17,7 +17,7 @@ For details: https://doi.org/10.1109/TIM.2018.2807000
 
 - Run the main script by typing "run SADF_run.m" in the MATLAB Command Window.
 
-- Optionally for speed increase: Verify the existence of a C-compiler and install it if needed. To check this type "mex -setup" into     MATLAB Command Window. Navigate into "crc_16_CCITT_8bit_sources/" directory and open "crc_16_CCITT_8bit.prj", and compile mex file for your own MATLAB version. Afterwards rename existing crc_16_CCITT_8bit.m of the root SADF folder and copy the newly mex generated file instead. This will increase the execution speed of SADF.
+- For speed increase (optionally): Verify the existence of a C-compiler and install it if needed. To check this type "mex -setup" into     MATLAB Command Window. Navigate into "crc_16_CCITT_8bit_sources/" directory and open "crc_16_CCITT_8bit.prj", and compile mex file for your own MATLAB version. Afterwards rename the existing "crc_16_CCITT_8bit.m" file in the root SADF folder into "crc_16_CCITT_8bit_matlab(bck).m" and copy the newly MEX generated file instead with the name "crc_16_CCITT_8bit.mexw64". This will increase the execution speed of SADF.
 
 - In case of flowing error:
 
