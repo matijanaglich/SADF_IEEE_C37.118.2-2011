@@ -12,12 +12,12 @@ For details: https://doi.org/10.1109/TIM.2018.2807000
 
 
 ## **Quick-start documentation**
-- Verify the existence of a C-compiler or similar and install it if needed. To check this type "mex -setup" into MATLAB Command Window. In case of problems with existing crc_16_CCITT_8bit mex file, navigate into "crc_16_CCITT_8bit_sources/" directory and open "crc_16_CCITT_8bit.prj", and compile mex file for your own MATLAB version.
-
 - Edit "SADF_settings.m" file using a text editor or MATLAB Editor by typing "edit SADF_settings.m" in the MATLAB Command Window.
   Set IP address of a PMU/PDC, UDP/TCP protocol used, and device ID of a PMU/PDC.
 
 - Run the main script by typing "run SADF_run.m" in the MATLAB Command Window.
+
+- Optionally for speed increase: Verify the existence of a C-compiler and install it if needed. To check this type "mex -setup" into     MATLAB Command Window. Navigate into "crc_16_CCITT_8bit_sources/" directory and open "crc_16_CCITT_8bit.prj", and compile mex file for your own MATLAB version. Afterwards rename existing crc_16_CCITT_8bit.m of the root SADF folder and copy the newly mex generated file instead. This will increase the execution speed of SADF.
 
 - In case of flowing error:
 
